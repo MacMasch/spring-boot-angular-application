@@ -1,18 +1,18 @@
 version: "2"
 services:
   backend:
-    container_name: template-backend
+    container_name: spring-boot-angular-application-backend
     build:
       context: backend
-    image: template-backend:latest
+    image: spring-boot-angular-application-backend:latest
     ports:
       - "8080:8080"
     restart: always
   frontend:
-    container_name: template-frontend
+    container_name: spring-boot-angular-application-frontend
     build:
       context: frontend
-    image: template-frontend:latest
+    image: spring-boot-angular-application-frontend:latest
     ports:
       - "4200:80"
     restart: always

@@ -11,7 +11,7 @@ allprojects {
 
 sonar {
     properties {
-        property("sonar.projectKey", "MacMasch_template")
+        property("sonar.projectKey", "MacMasch_spring-boot-angular-application")
         property("sonar.organization", "macmasch")
         property("sonar.host.url", "https://sonarcloud.io")
     }

@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:template;INIT=CREATE SCHEMA IF NOT EXISTS template
+    url: jdbc:h2:mem:spring-boot-angular-application;INIT=CREATE SCHEMA IF NOT EXISTS spring-boot-angular-application
     username: sa
     password:
   h2:
@@ -16,7 +16,7 @@ spring:
       ddl-auto: update # https://stackoverflow.com/questions/37903105/how-to-configure-spring-boot-to-use-file-based-h2-database
     properties:
       hibernate:
-        default_schema: template
+        default_schema: spring-boot-angular-application
 
 management:
   endpoints:

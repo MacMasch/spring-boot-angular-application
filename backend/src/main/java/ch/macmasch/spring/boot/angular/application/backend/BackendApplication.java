@@ -1,4 +1,4 @@
-package ch.macmasch.template.backend;
+package ch.macmasch.spring.boot.angular.application.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
