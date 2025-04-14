@@ -1,4 +1,4 @@
-package ch.macmasch.template.backend.security;
+package ch.macmasch.spring.boot.angular.application.backend.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
